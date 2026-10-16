@@ -1,27 +1,27 @@
 class LocaltoolsJsonToExcel < Formula
   desc "Convert JSON or JSONL into formatted .xlsx workbooks with typed columns and multiple sheets"
   homepage "https://tools.chaitanyaprabuddha.com/json-to-excel"
-  version "1.0.1"
+  version "1.0.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/json-to-excel-v1.0.1/json-to-excel-1.0.1-macos-arm64.zip"
-      sha256 "ae5c0124d909962b3d3a34be22f79f52fd1ca7c9c5ec85898f330b6444647ebf"
+      url "https://github.com/chayprabs/localtools/releases/download/json-to-excel-v1.0.2/json-to-excel-1.0.2-macos-arm64.zip"
+      sha256 "270e2c014cd7c16729739a642b249d8fc5341d7f535039dff926511aa07bb119"
     end
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/json-to-excel-v1.0.1/json-to-excel-1.0.1-macos-x64.zip"
-      sha256 "337a8cd8695cf395d3c7b809cd76194d5d8fea84ec1f7b1df60dc1e9faf2f3e8"
+      url "https://github.com/chayprabs/localtools/releases/download/json-to-excel-v1.0.2/json-to-excel-1.0.2-macos-x64.zip"
+      sha256 "6fb0ad4d59e3cfe78800fb814eed2ffbd1f299014de11229f7cd0a854444ffb2"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/json-to-excel-v1.0.1/json-to-excel-1.0.1-linux-x64.zip"
-      sha256 "0ac1ee663b7414d136fdbc232c9a8f1855e6a35bd2ea94db519243d5ebf8cd99"
+      url "https://github.com/chayprabs/localtools/releases/download/json-to-excel-v1.0.2/json-to-excel-1.0.2-linux-x64.zip"
+      sha256 "65a21a62820c034d3fbeeec85ad9abb44089d0d2ae71bcfef2a9508b52c96bd0"
     end
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/json-to-excel-v1.0.1/json-to-excel-1.0.1-linux-arm64.zip"
-      sha256 "0777c566e3588cdff91cd5a68b9b3c552e0569f388cbe416c56e735c4e95997c"
+      url "https://github.com/chayprabs/localtools/releases/download/json-to-excel-v1.0.2/json-to-excel-1.0.2-linux-arm64.zip"
+      sha256 "bc91692e839afa52c335a90f41a2b02ff905591f6ec749fb34f3eb75d22049d3"
     end
   end
 
