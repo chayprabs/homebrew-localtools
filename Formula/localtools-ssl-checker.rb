@@ -1,27 +1,27 @@
 class LocaltoolsSslChecker < Formula
   desc "Check a domain's TLS certificate chain, expiry, supported protocols, DNSSEC and CAA records"
   homepage "https://tools.chaitanyaprabuddha.com/ssl-checker"
-  version "1.0.0"
+  version "1.0.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/ssl-checker-v1.0.0/ssl-checker-1.0.0-macos-arm64.zip"
-      sha256 "14c4840f970392e1cf4a7609ca59aaa585889a8bb63b3b06de62ad58b6d504e0"
+      url "https://github.com/chayprabs/localtools/releases/download/ssl-checker-v1.0.1/ssl-checker-1.0.1-macos-arm64.zip"
+      sha256 "04456aa6d66a9a8fda77ee8a401f080a3505ffad17ff56035fd68c9ad0b44db5"
     end
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/ssl-checker-v1.0.0/ssl-checker-1.0.0-macos-x64.zip"
-      sha256 "54f93d18b8685eab87af2ff8d2c258cdffb3bd3f33c42cbb134b00bac1364c14"
+      url "https://github.com/chayprabs/localtools/releases/download/ssl-checker-v1.0.1/ssl-checker-1.0.1-macos-x64.zip"
+      sha256 "3e48cb69b142992721d67541133eae471ce11439c509dd525aeab51323ccec89"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/ssl-checker-v1.0.0/ssl-checker-1.0.0-linux-x64.zip"
-      sha256 "d1c74dbe52433e4b8b29fb155285647cffde07fef18491b0c270e8b15997e729"
+      url "https://github.com/chayprabs/localtools/releases/download/ssl-checker-v1.0.1/ssl-checker-1.0.1-linux-x64.zip"
+      sha256 "0a6ce4b6612763f716c740f1bc02744aad320e122b062c7dc33f8549905eb9cb"
     end
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/ssl-checker-v1.0.0/ssl-checker-1.0.0-linux-arm64.zip"
-      sha256 "7e7addca42bb28b3e63d7a17589387719a207a0eee55e95c5ed7aa9d49c59b68"
+      url "https://github.com/chayprabs/localtools/releases/download/ssl-checker-v1.0.1/ssl-checker-1.0.1-linux-arm64.zip"
+      sha256 "268ed5e3044bef0de70f7b13a6a7205f052e56350801cfaec896e40d8c5fd231"
     end
   end
 
