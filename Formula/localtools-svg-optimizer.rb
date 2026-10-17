@@ -1,27 +1,27 @@
 class LocaltoolsSvgOptimizer < Formula
   desc "Optimize and minify SVG files with SVGO and export them to PNG"
   homepage "https://tools.chaitanyaprabuddha.com/svg-optimizer"
-  version "1.0.1"
+  version "1.0.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/svg-optimizer-v1.0.1/svg-optimizer-1.0.1-macos-arm64.zip"
-      sha256 "8feccf00aeb2943e1cab18cb89feabfa183e7127c4dff5c9324757d8a4a851b0"
+      url "https://github.com/chayprabs/localtools/releases/download/svg-optimizer-v1.0.2/svg-optimizer-1.0.2-macos-arm64.zip"
+      sha256 "bc1f5afcf1258fd78449a09845ff616d9cc42169eadb08bdc78322ea597b1293"
     end
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/svg-optimizer-v1.0.1/svg-optimizer-1.0.1-macos-x64.zip"
-      sha256 "52864f1ea6ca863e71484a6d587c6941a5aa04de416133562d703700aa9d5468"
+      url "https://github.com/chayprabs/localtools/releases/download/svg-optimizer-v1.0.2/svg-optimizer-1.0.2-macos-x64.zip"
+      sha256 "cbe66c7d883770d43e87f493e3d31116f9c3a4db7856c9f1d3eafae6ad9d9ee7"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/svg-optimizer-v1.0.1/svg-optimizer-1.0.1-linux-x64.zip"
-      sha256 "7e2deb303ef44abc3f7b05b180b6a9c97de631d264859e8b6d2880e1292646aa"
+      url "https://github.com/chayprabs/localtools/releases/download/svg-optimizer-v1.0.2/svg-optimizer-1.0.2-linux-x64.zip"
+      sha256 "119b6e202140407b715eab749b4ea1d3c74cb8399d8cea1544eafd458388f3e2"
     end
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/svg-optimizer-v1.0.1/svg-optimizer-1.0.1-linux-arm64.zip"
-      sha256 "e17087cbe17210c66bdd01cfbb04eb98ba972fcc9cda2bc68d48bb9a58fb7572"
+      url "https://github.com/chayprabs/localtools/releases/download/svg-optimizer-v1.0.2/svg-optimizer-1.0.2-linux-arm64.zip"
+      sha256 "0355f720b991576772e776aa629aa2be7ef462c7a9aba38453197320531429ed"
     end
   end
 
