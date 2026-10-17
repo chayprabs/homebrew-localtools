@@ -1,27 +1,27 @@
 class LocaltoolsCsvSqlQuery < Formula
   desc "Run SQL on CSV, TSV, JSON, Parquet and log files (nginx, Apache, syslog) with DuckDB"
   homepage "https://tools.chaitanyaprabuddha.com/csv-sql-query"
-  version "1.0.1"
+  version "1.0.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/csv-sql-query-v1.0.1/csv-sql-query-1.0.1-macos-arm64.zip"
-      sha256 "e7426d9ea8180ea6f321f0d872838ab1f723dd4000883fe3618d62cea6f4928c"
+      url "https://github.com/chayprabs/localtools/releases/download/csv-sql-query-v1.0.2/csv-sql-query-1.0.2-macos-arm64.zip"
+      sha256 "ac910a4648ef60474f266ece9bec96896000d37b4aabf7ab5418485dd4407cde"
     end
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/csv-sql-query-v1.0.1/csv-sql-query-1.0.1-macos-x64.zip"
-      sha256 "c1928f7ee59e2d7ae4efba337f4e4b42b02b9a99dde33bffc4f2bd905490da1e"
+      url "https://github.com/chayprabs/localtools/releases/download/csv-sql-query-v1.0.2/csv-sql-query-1.0.2-macos-x64.zip"
+      sha256 "bbc9874d06ea4d7b034b2f7941f9dca66d28e690fd058383c09abde426126837"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/csv-sql-query-v1.0.1/csv-sql-query-1.0.1-linux-x64.zip"
-      sha256 "250c8f367f6cf8513e0075ef33e9e31e3be50c93cce0432f2e22f08ae57cede4"
+      url "https://github.com/chayprabs/localtools/releases/download/csv-sql-query-v1.0.2/csv-sql-query-1.0.2-linux-x64.zip"
+      sha256 "e802ed3c27f28d123f15e50feb7f927c42edf14403055d827ab845bf1290d241"
     end
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/csv-sql-query-v1.0.1/csv-sql-query-1.0.1-linux-arm64.zip"
-      sha256 "65480b51d9b82f45e344b2edd13230a0edc0e52b57c145c3af929397874ad7a3"
+      url "https://github.com/chayprabs/localtools/releases/download/csv-sql-query-v1.0.2/csv-sql-query-1.0.2-linux-arm64.zip"
+      sha256 "bdd104445f3274372a87e0151efbc1239703e5474e40a8be827a65e9707d4d4b"
     end
   end
 
