@@ -1,27 +1,27 @@
 class LocaltoolsHtmlExtractor < Formula
   desc "Extract data from HTML pages with CSS selectors into JSON or CSV"
   homepage "https://tools.chaitanyaprabuddha.com/html-extractor"
-  version "1.0.0"
+  version "1.0.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/html-extractor-v1.0.0/html-extractor-1.0.0-macos-arm64.zip"
-      sha256 "b60df601b6e7a245632e4bd055451d0a86fd3128b2135d0bc04a56baadab9773"
+      url "https://github.com/chayprabs/localtools/releases/download/html-extractor-v1.0.1/html-extractor-1.0.1-macos-arm64.zip"
+      sha256 "1891fe509363887aa93f34251a7ce8120243a7a7500373f3257eddcc63733af6"
     end
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/html-extractor-v1.0.0/html-extractor-1.0.0-macos-x64.zip"
-      sha256 "7deb89cf1535c68843a6a713e2bacdfa855c3b0b9cc4ce5bf37b372dc27366a3"
+      url "https://github.com/chayprabs/localtools/releases/download/html-extractor-v1.0.1/html-extractor-1.0.1-macos-x64.zip"
+      sha256 "878305f3577098a2aab40da0a2c9c78986faced37d10032c9f25a7a406392518"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/html-extractor-v1.0.0/html-extractor-1.0.0-linux-x64.zip"
-      sha256 "974484711e9f38a3acb21bda35cb01fd79b12c7c7c9cf4078ea9ab948e6c961b"
+      url "https://github.com/chayprabs/localtools/releases/download/html-extractor-v1.0.1/html-extractor-1.0.1-linux-x64.zip"
+      sha256 "fa8d9aa94e948e1963b83f5888ec84e7b8fd62d53c79314fb8a80936a1b6f9e0"
     end
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/html-extractor-v1.0.0/html-extractor-1.0.0-linux-arm64.zip"
-      sha256 "b71bc445fc215abc9eb3f052fad872a2a4f69fcb54babd9b1a3e12294dfca37a"
+      url "https://github.com/chayprabs/localtools/releases/download/html-extractor-v1.0.1/html-extractor-1.0.1-linux-arm64.zip"
+      sha256 "3d45e894498b426bf1d8f8e01106c9d60f916791d9278cab4a08fed22917a018"
     end
   end
 
