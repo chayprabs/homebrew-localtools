@@ -1,27 +1,27 @@
 class LocaltoolsHtmlExtractor < Formula
   desc "Extract data from HTML pages with CSS selectors into JSON or CSV"
   homepage "https://tools.chaitanyaprabuddha.com/html-extractor"
-  version "1.0.1"
+  version "1.0.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/html-extractor-v1.0.1/html-extractor-1.0.1-macos-arm64.zip"
-      sha256 "1891fe509363887aa93f34251a7ce8120243a7a7500373f3257eddcc63733af6"
+      url "https://github.com/chayprabs/localtools/releases/download/html-extractor-v1.0.2/html-extractor-1.0.2-macos-arm64.zip"
+      sha256 "892213a0a5054a50138fabe81095209c92b224a58d5286ce1ce340fa87cc56d6"
     end
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/html-extractor-v1.0.1/html-extractor-1.0.1-macos-x64.zip"
-      sha256 "878305f3577098a2aab40da0a2c9c78986faced37d10032c9f25a7a406392518"
+      url "https://github.com/chayprabs/localtools/releases/download/html-extractor-v1.0.2/html-extractor-1.0.2-macos-x64.zip"
+      sha256 "037211ef638a8e0d6f8f0e71a41f95101940b827217c3d8d674e0ee94f42b1c9"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/html-extractor-v1.0.1/html-extractor-1.0.1-linux-x64.zip"
-      sha256 "fa8d9aa94e948e1963b83f5888ec84e7b8fd62d53c79314fb8a80936a1b6f9e0"
+      url "https://github.com/chayprabs/localtools/releases/download/html-extractor-v1.0.2/html-extractor-1.0.2-linux-x64.zip"
+      sha256 "ef7bef3a7a841f66c54869363559abe65a560bee2103420c98ac874dd383693e"
     end
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/html-extractor-v1.0.1/html-extractor-1.0.1-linux-arm64.zip"
-      sha256 "3d45e894498b426bf1d8f8e01106c9d60f916791d9278cab4a08fed22917a018"
+      url "https://github.com/chayprabs/localtools/releases/download/html-extractor-v1.0.2/html-extractor-1.0.2-linux-arm64.zip"
+      sha256 "bd2673ab765796aef4cba27d1cdf8479c07843adef44e1ecf12c8c24feb9435a"
     end
   end
 
