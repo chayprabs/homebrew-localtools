@@ -1,27 +1,27 @@
 class LocaltoolsGithubActionsLinter < Formula
   desc "Lint GitHub Actions workflows for correctness and security issues, with line-level findings and suggested fixes"
   homepage "https://tools.chaitanyaprabuddha.com/github-actions-linter"
-  version "1.0.0"
+  version "1.0.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/github-actions-linter-v1.0.0/github-actions-linter-1.0.0-macos-arm64.zip"
-      sha256 "f7116d0b6e7bddd1bb99b659974419afa720a212abab242437301e6d984e28f5"
+      url "https://github.com/chayprabs/localtools/releases/download/github-actions-linter-v1.0.1/github-actions-linter-1.0.1-macos-arm64.zip"
+      sha256 "6f5eb00e36cbee2c1c253739df849083bcbe3e9ac854eefea2661fc6009979e7"
     end
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/github-actions-linter-v1.0.0/github-actions-linter-1.0.0-macos-x64.zip"
-      sha256 "b8dd64575b11de0784f1aa7d5ca435edf1000a05063d6c42742506f326d265e0"
+      url "https://github.com/chayprabs/localtools/releases/download/github-actions-linter-v1.0.1/github-actions-linter-1.0.1-macos-x64.zip"
+      sha256 "9ef0a54eb3c5efa160d55d20e181deee121a140ea486ec5ccd04248603f260b6"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/github-actions-linter-v1.0.0/github-actions-linter-1.0.0-linux-x64.zip"
-      sha256 "600873ba64a405d75c38ab77ab9e8f748cbb0a771ba6e3a9855511cf2c0fdd90"
+      url "https://github.com/chayprabs/localtools/releases/download/github-actions-linter-v1.0.1/github-actions-linter-1.0.1-linux-x64.zip"
+      sha256 "1f5655687218da1cadd9b2d0c6506997391589e532e5420a87b063b6202cd7ce"
     end
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/github-actions-linter-v1.0.0/github-actions-linter-1.0.0-linux-arm64.zip"
-      sha256 "94601ae3b8f71c490672919f29575a23cd76807676857f25a5bec6a89fd991b8"
+      url "https://github.com/chayprabs/localtools/releases/download/github-actions-linter-v1.0.1/github-actions-linter-1.0.1-linux-arm64.zip"
+      sha256 "a0100cd630b6b912b0d16d97ca16590646cdd4d22723eaa2b01cc69b5b6c3924"
     end
   end
 
