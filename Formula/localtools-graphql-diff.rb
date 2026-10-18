@@ -1,27 +1,27 @@
 class LocaltoolsGraphqlDiff < Formula
   desc "Compare two GraphQL schemas and classify breaking, dangerous and safe changes"
   homepage "https://tools.chaitanyaprabuddha.com/graphql-diff"
-  version "1.0.0"
+  version "1.0.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/graphql-diff-v1.0.0/graphql-diff-1.0.0-macos-arm64.zip"
-      sha256 "704efa21535ee6d24e26340ac6fbecab4b1ef363ec0493d3c600dee919d40173"
+      url "https://github.com/chayprabs/localtools/releases/download/graphql-diff-v1.0.1/graphql-diff-1.0.1-macos-arm64.zip"
+      sha256 "fc2ddb00ac14709ec77144557380baeb3a0452ceb61e96a4cbcf92741ab9a415"
     end
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/graphql-diff-v1.0.0/graphql-diff-1.0.0-macos-x64.zip"
-      sha256 "e06215d4acfb7d57d5c1f9773b0e98ff57d9605b12a5abb124ba67ef91cfe399"
+      url "https://github.com/chayprabs/localtools/releases/download/graphql-diff-v1.0.1/graphql-diff-1.0.1-macos-x64.zip"
+      sha256 "bb1215e001bed813f3945fe31772181be4d80ac65f08a830a2c9f87e3eafe707"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/graphql-diff-v1.0.0/graphql-diff-1.0.0-linux-x64.zip"
-      sha256 "37ecb1e498c8c7aea6147543ad15333596aa829660ebf17b2f0d66e6f59f289a"
+      url "https://github.com/chayprabs/localtools/releases/download/graphql-diff-v1.0.1/graphql-diff-1.0.1-linux-x64.zip"
+      sha256 "43f579e930223d736d0dcdc49876c47f308f96e60bad34623484b0cf6515ae66"
     end
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/graphql-diff-v1.0.0/graphql-diff-1.0.0-linux-arm64.zip"
-      sha256 "bdf8a8bc6400ee89f612b263676927ae3bbf30edb8e4a6e5913c012d4078be87"
+      url "https://github.com/chayprabs/localtools/releases/download/graphql-diff-v1.0.1/graphql-diff-1.0.1-linux-arm64.zip"
+      sha256 "5a2a8789a7ae55a9d1994a9306f390c395ecdf5a9cbf1805056c95ae2f78c8be"
     end
   end
 
