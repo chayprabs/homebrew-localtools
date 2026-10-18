@@ -1,27 +1,27 @@
 class LocaltoolsExifRemover < Formula
   desc "Inspect and remove metadata from JPEG, PNG, TIFF and WebP images; download clean copies and a remaining-tags report"
   homepage "https://tools.chaitanyaprabuddha.com/exif-remover"
-  version "1.0.0"
+  version "1.0.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/exif-remover-v1.0.0/exif-remover-1.0.0-macos-arm64.zip"
-      sha256 "b1418eae30c4b1fc370c1f87734aa84bcf0ba93ed5c9ac6bf16d5a496f211db3"
+      url "https://github.com/chayprabs/localtools/releases/download/exif-remover-v1.0.1/exif-remover-1.0.1-macos-arm64.zip"
+      sha256 "6ae2195a6c4a731de15ad202fc67874c62e8af95f53c832f656640e98e18656f"
     end
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/exif-remover-v1.0.0/exif-remover-1.0.0-macos-x64.zip"
-      sha256 "20d8659147ce5b99e5235e70d447d5a36bd9e6c11375effd3333d346ff3dd52d"
+      url "https://github.com/chayprabs/localtools/releases/download/exif-remover-v1.0.1/exif-remover-1.0.1-macos-x64.zip"
+      sha256 "062e3a2a8bdca33e3678f99e1d6d88fb11ca4c85ac740bc849e475f0550b78b8"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/exif-remover-v1.0.0/exif-remover-1.0.0-linux-x64.zip"
-      sha256 "36ec77d503c67e49da83510fb333eb21d81ac44ee4e14185b551b24437149168"
+      url "https://github.com/chayprabs/localtools/releases/download/exif-remover-v1.0.1/exif-remover-1.0.1-linux-x64.zip"
+      sha256 "eeff76e11bd098c6db98b052fb6ffb7a9b5459dbd8038489586a8ff9a7a6f50d"
     end
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/exif-remover-v1.0.0/exif-remover-1.0.0-linux-arm64.zip"
-      sha256 "1b65ea8b529bc4845580bd9841019b44223869cb0c05196b21b64623682e09e4"
+      url "https://github.com/chayprabs/localtools/releases/download/exif-remover-v1.0.1/exif-remover-1.0.1-linux-arm64.zip"
+      sha256 "ce6486ebae38a473aab74adb7be412f999dd436acac6dfa6d7e9076848cd5eb8"
     end
   end
 
