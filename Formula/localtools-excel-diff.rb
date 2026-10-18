@@ -1,27 +1,27 @@
 class LocaltoolsExcelDiff < Formula
   desc "Compare two Excel or CSV files cell by cell: values, formulas, formats, inserted rows and columns, sheets and named ranges"
   homepage "https://tools.chaitanyaprabuddha.com/excel-diff"
-  version "1.0.1"
+  version "1.0.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/excel-diff-v1.0.1/excel-diff-1.0.1-macos-arm64.zip"
-      sha256 "2eb21799f3309260ba179ce041e598c765f75d8da1ec6831487f105cdc969667"
+      url "https://github.com/chayprabs/localtools/releases/download/excel-diff-v1.0.2/excel-diff-1.0.2-macos-arm64.zip"
+      sha256 "a4efaff3a925d092a7ad56a886f06c01be4389246b0efcb0890afe04a3a3f992"
     end
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/excel-diff-v1.0.1/excel-diff-1.0.1-macos-x64.zip"
-      sha256 "92c7a5f0632b9881acce77613295a9d84ccc93e6357e2ab94f0419a4010a4d3e"
+      url "https://github.com/chayprabs/localtools/releases/download/excel-diff-v1.0.2/excel-diff-1.0.2-macos-x64.zip"
+      sha256 "8f13a62756cfe32a55a4bfe23612311a3962e2e18db5e34c8f2cb2cccf7beee3"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/excel-diff-v1.0.1/excel-diff-1.0.1-linux-x64.zip"
-      sha256 "7c1d76b3056d4f24c2b31af9ce544e42a870e1cf140440a72df054adc3d07593"
+      url "https://github.com/chayprabs/localtools/releases/download/excel-diff-v1.0.2/excel-diff-1.0.2-linux-x64.zip"
+      sha256 "f4ad67b70a7a12fa731b5f4b3ab9a3c79f07c36bde93e629e7bde00138379730"
     end
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/excel-diff-v1.0.1/excel-diff-1.0.1-linux-arm64.zip"
-      sha256 "7db37b7ae010babb41945e84f0226009110be2b06555d8f3856e5f6f19deff3d"
+      url "https://github.com/chayprabs/localtools/releases/download/excel-diff-v1.0.2/excel-diff-1.0.2-linux-arm64.zip"
+      sha256 "5671bbbcc430978ba6d2d8bc43274ca722bd1a439f74b7b8fb2510420425e33e"
     end
   end
 
