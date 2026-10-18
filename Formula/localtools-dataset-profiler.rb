@@ -1,27 +1,27 @@
 class LocaltoolsDatasetProfiler < Formula
   desc "Profile CSV, Parquet and JSON datasets (types, nulls, distributions) and detect schema and value drift between two files"
   homepage "https://tools.chaitanyaprabuddha.com/dataset-profiler"
-  version "1.0.0"
+  version "1.0.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/dataset-profiler-v1.0.0/dataset-profiler-1.0.0-macos-arm64.zip"
-      sha256 "910625570870766ffdfb9c7779ea6e530ce38348dc933d5621a82c145deab0b9"
+      url "https://github.com/chayprabs/localtools/releases/download/dataset-profiler-v1.0.1/dataset-profiler-1.0.1-macos-arm64.zip"
+      sha256 "9d829f679246d701d40c6f2064c133f05f0f1f6d897e12399f527a2b48a9e5a3"
     end
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/dataset-profiler-v1.0.0/dataset-profiler-1.0.0-macos-x64.zip"
-      sha256 "80f69a8cb4cc99ff232b6cb3e9e7207d48d10aa4a1c3603146d6f084772d380c"
+      url "https://github.com/chayprabs/localtools/releases/download/dataset-profiler-v1.0.1/dataset-profiler-1.0.1-macos-x64.zip"
+      sha256 "3a20553c90d50464a708e5d6f57f51d780667a90ab1edf20e7b8013c88987200"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/dataset-profiler-v1.0.0/dataset-profiler-1.0.0-linux-x64.zip"
-      sha256 "9d11eadacccc565cc0f97c91b4350ede944337db2c977f57c94257f162e5ed4c"
+      url "https://github.com/chayprabs/localtools/releases/download/dataset-profiler-v1.0.1/dataset-profiler-1.0.1-linux-x64.zip"
+      sha256 "505d4b7f7ca7b2acc6e0e2e1011c4bcb31331c6e3ccba8a0613d74d77b254e60"
     end
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/dataset-profiler-v1.0.0/dataset-profiler-1.0.0-linux-arm64.zip"
-      sha256 "c6c0fa048c5509ab4d0fc5eb7b37a9c3079ce66734cf9c145d44cf2e55abf00b"
+      url "https://github.com/chayprabs/localtools/releases/download/dataset-profiler-v1.0.1/dataset-profiler-1.0.1-linux-arm64.zip"
+      sha256 "00fef9e43b091ed13384b5d6909a9da759593bb4bb0ae96848fb6a726ae3502d"
     end
   end
 
