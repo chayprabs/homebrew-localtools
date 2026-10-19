@@ -1,27 +1,27 @@
 class LocaltoolsPandocGui < Formula
   desc "Convert documents between Markdown, DOCX, HTML, EPUB, LaTeX and PDF with pandoc"
   homepage "https://tools.chaitanyaprabuddha.com/pandoc-gui"
-  version "1.0.1"
+  version "1.0.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/pandoc-gui-v1.0.1/pandoc-gui-1.0.1-macos-arm64.zip"
-      sha256 "93a6f1acc783f9a5fb8190dcc1c68bfa5481e499502848212622e6ae1f9df5ea"
+      url "https://github.com/chayprabs/localtools/releases/download/pandoc-gui-v1.0.2/pandoc-gui-1.0.2-macos-arm64.zip"
+      sha256 "932f6e45a67ccd95b0a588d7be3f981a838573e51e6a3d249f52cd4b334be52f"
     end
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/pandoc-gui-v1.0.1/pandoc-gui-1.0.1-macos-x64.zip"
-      sha256 "ee3ac08d06c87cda4eba27382eddc5cb1d2acac81919ae5e0458535d6b7d3bf3"
+      url "https://github.com/chayprabs/localtools/releases/download/pandoc-gui-v1.0.2/pandoc-gui-1.0.2-macos-x64.zip"
+      sha256 "931a02e8866b92563a24c13a7ce2b202d6a194e1982703f7e866bf3f20f264d9"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/pandoc-gui-v1.0.1/pandoc-gui-1.0.1-linux-x64.zip"
-      sha256 "8960ab7d291a746c62247c03c25696579dbc028de45ca6ad889450e661da78cf"
+      url "https://github.com/chayprabs/localtools/releases/download/pandoc-gui-v1.0.2/pandoc-gui-1.0.2-linux-x64.zip"
+      sha256 "54404ad51991cda6e68073d7e33ebc16e04e4074a00da71e5e5c782f43009187"
     end
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/pandoc-gui-v1.0.1/pandoc-gui-1.0.1-linux-arm64.zip"
-      sha256 "a00d69f5d1a334012229568b6ef47cf2df785dc0ef950fcbd47114797d12a618"
+      url "https://github.com/chayprabs/localtools/releases/download/pandoc-gui-v1.0.2/pandoc-gui-1.0.2-linux-arm64.zip"
+      sha256 "2301ebdcab522899b34beeb406b0417780e51c5af098270c78895f90c0264a8d"
     end
   end
 
