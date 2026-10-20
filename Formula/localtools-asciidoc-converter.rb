@@ -1,27 +1,27 @@
 class LocaltoolsAsciidocConverter < Formula
   desc "Convert AsciiDoc documents and projects to self-contained HTML5, DocBook 5 or Markdown with Asciidoctor, offline"
   homepage "https://tools.chaitanyaprabuddha.com/asciidoc-converter"
-  version "1.0.0"
+  version "1.0.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/asciidoc-converter-v1.0.0/asciidoc-converter-1.0.0-macos-arm64.zip"
-      sha256 "65a98f32e6c8ea74eb30d69975758eff6fed7589c4b65ed1a9d5934d2648f2cf"
+      url "https://github.com/chayprabs/localtools/releases/download/asciidoc-converter-v1.0.1/asciidoc-converter-1.0.1-macos-arm64.zip"
+      sha256 "2202d21774fb767d71a7550d8ae88c86ad34aab9f2b834c1dd72fea8bd39e4d3"
     end
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/asciidoc-converter-v1.0.0/asciidoc-converter-1.0.0-macos-x64.zip"
-      sha256 "582f544ce760680bf45e75538a653afd754bf70460f987fda278ebda8cbfe1da"
+      url "https://github.com/chayprabs/localtools/releases/download/asciidoc-converter-v1.0.1/asciidoc-converter-1.0.1-macos-x64.zip"
+      sha256 "c9180c0100ca0b58b9482be43c355db5fd020f780e80ed609cd9c26cda190ccb"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/asciidoc-converter-v1.0.0/asciidoc-converter-1.0.0-linux-x64.zip"
-      sha256 "19d1291476d3eec0aae95ae17080144707953bf7f098e91300f30f64c1a6d83b"
+      url "https://github.com/chayprabs/localtools/releases/download/asciidoc-converter-v1.0.1/asciidoc-converter-1.0.1-linux-x64.zip"
+      sha256 "9687668d6885a418f277892b2e98c91a4e1a9eb6f9c9acf63814aad244a379c1"
     end
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/asciidoc-converter-v1.0.0/asciidoc-converter-1.0.0-linux-arm64.zip"
-      sha256 "7d91e6d9eed0985fad8b20ec407cae38963e09414f99d1aa10bd913def82271b"
+      url "https://github.com/chayprabs/localtools/releases/download/asciidoc-converter-v1.0.1/asciidoc-converter-1.0.1-linux-arm64.zip"
+      sha256 "b50b4a8ea424958cb8a577b50854838756a185ce6db5a1f161014639dd92382f"
     end
   end
 
