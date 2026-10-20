@@ -1,27 +1,27 @@
 class LocaltoolsLatexToSvg < Formula
   desc "Render LaTeX, MathML or AsciiMath to SVG, PNG and MathML with speech alt text, offline with MathJax"
   homepage "https://tools.chaitanyaprabuddha.com/latex-to-svg"
-  version "1.0.1"
+  version "1.0.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/latex-to-svg-v1.0.1/latex-to-svg-1.0.1-macos-arm64.zip"
-      sha256 "23aeed0155f166b4d94dcb617042ca3db9cf7ccfe31477002f8f2f8d191455ca"
+      url "https://github.com/chayprabs/localtools/releases/download/latex-to-svg-v1.0.2/latex-to-svg-1.0.2-macos-arm64.zip"
+      sha256 "81e729e22377bd04993c5c0b382be3e15fa475424cade0ff8583041d5478e8cc"
     end
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/latex-to-svg-v1.0.1/latex-to-svg-1.0.1-macos-x64.zip"
-      sha256 "ac1df04c7bad9475a32c6bdb7219ed5e852db9307c55a37e26afd40c242d617f"
+      url "https://github.com/chayprabs/localtools/releases/download/latex-to-svg-v1.0.2/latex-to-svg-1.0.2-macos-x64.zip"
+      sha256 "8383d8750d21e1ec9c71feb236c29e42ba63c618cee47aa40713be3fe0dfd697"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/latex-to-svg-v1.0.1/latex-to-svg-1.0.1-linux-x64.zip"
-      sha256 "5802e63bc1097309106bf15b291951b7b3120d5c34937499e98303ee433724a4"
+      url "https://github.com/chayprabs/localtools/releases/download/latex-to-svg-v1.0.2/latex-to-svg-1.0.2-linux-x64.zip"
+      sha256 "f1dee7d9ef13c6ead70838a3c28f9bd20eca47c542056d43cbe0103472e91c6c"
     end
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/latex-to-svg-v1.0.1/latex-to-svg-1.0.1-linux-arm64.zip"
-      sha256 "ca9ae9ad0daf96b41b7a66106a33416afa8ab3a1e83c6613c396c23bce61fe28"
+      url "https://github.com/chayprabs/localtools/releases/download/latex-to-svg-v1.0.2/latex-to-svg-1.0.2-linux-arm64.zip"
+      sha256 "77b87fdb47657f0c718bbabc505dd443b3d6b1a1bf316b61ad9f439eda689fa8"
     end
   end
 
