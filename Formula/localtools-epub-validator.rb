@@ -1,27 +1,27 @@
 class LocaltoolsEpubValidator < Formula
   desc "Validate EPUB files with EPUBCheck and repair common errors"
   homepage "https://tools.chaitanyaprabuddha.com/epub-validator"
-  version "1.0.0"
+  version "1.0.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/epub-validator-v1.0.0/epub-validator-1.0.0-macos-arm64.zip"
-      sha256 "d1a6886abaf8c7231469f2f189163c7479610764623775e242a44a0bb6ef084f"
+      url "https://github.com/chayprabs/localtools/releases/download/epub-validator-v1.0.1/epub-validator-1.0.1-macos-arm64.zip"
+      sha256 "a094c37892d211c7445a85c686149edd3898af3d0a06a2262299b35e53fa19f9"
     end
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/epub-validator-v1.0.0/epub-validator-1.0.0-macos-x64.zip"
-      sha256 "16e75490e7724ad1ff34357f28595a3460bf59cdea75cc815c4172f9a629b4ac"
+      url "https://github.com/chayprabs/localtools/releases/download/epub-validator-v1.0.1/epub-validator-1.0.1-macos-x64.zip"
+      sha256 "06fb0ee7ddd5c5e90adf520af5da57a571bc75fec23fa4e689fb80f94faf993d"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/epub-validator-v1.0.0/epub-validator-1.0.0-linux-x64.zip"
-      sha256 "6d397298cbc681c8a58c61e4993b369841632fa167721ea89867569abba27af8"
+      url "https://github.com/chayprabs/localtools/releases/download/epub-validator-v1.0.1/epub-validator-1.0.1-linux-x64.zip"
+      sha256 "688da5a063f7258adb7f4122dc54677af98b26546750b85515e8b29af2aadccd"
     end
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/epub-validator-v1.0.0/epub-validator-1.0.0-linux-arm64.zip"
-      sha256 "c8619f7787b7e123291771354097e94f54c6c4f0f126ee23ce330b172f782eee"
+      url "https://github.com/chayprabs/localtools/releases/download/epub-validator-v1.0.1/epub-validator-1.0.1-linux-arm64.zip"
+      sha256 "e6347c2bd96c8faf3ba3032dd09b1a8810c56625c6d05a8d017e2e46f1a67894"
     end
   end
 
