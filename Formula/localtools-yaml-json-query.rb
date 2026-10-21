@@ -1,27 +1,27 @@
 class LocaltoolsYamlJsonQuery < Formula
   desc "Query and edit YAML, JSON, XML, TOML and INI with yq expressions and apply RFC 6902 JSON Patch, keeping comments"
   homepage "https://tools.chaitanyaprabuddha.com/yaml-json-query"
-  version "1.0.2"
+  version "1.0.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/yaml-json-query-v1.0.2/yaml-json-query-1.0.2-macos-arm64.zip"
-      sha256 "e08bec8f5155add24f73c5dd33fd517ad8fca0bd26dcb87a5735e168dc742278"
+      url "https://github.com/chayprabs/localtools/releases/download/yaml-json-query-v1.0.3/yaml-json-query-1.0.3-macos-arm64.zip"
+      sha256 "510fca459c47ed2dcb5c1b1f03b62221dc5bcfc0dd82d9e493aa92a5cb955d3a"
     end
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/yaml-json-query-v1.0.2/yaml-json-query-1.0.2-macos-x64.zip"
-      sha256 "0c5e934a2f5e314d4e5cb3c2fc676617ba1a8c50f851dc4561dbb95bfebe7f89"
+      url "https://github.com/chayprabs/localtools/releases/download/yaml-json-query-v1.0.3/yaml-json-query-1.0.3-macos-x64.zip"
+      sha256 "2f9818512825f6ddc9ca0371765a5d07abea57dcf61fdf2b72de68de0978f222"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/yaml-json-query-v1.0.2/yaml-json-query-1.0.2-linux-x64.zip"
-      sha256 "0321689ae948d74e63b65a5a9a532d7a25aa56f96f17d255aecf63a40f4283fb"
+      url "https://github.com/chayprabs/localtools/releases/download/yaml-json-query-v1.0.3/yaml-json-query-1.0.3-linux-x64.zip"
+      sha256 "587526e0b97d42ad7795afd57db8b09d5aa0a5d52eb7095f1d6904c1bca14629"
     end
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/yaml-json-query-v1.0.2/yaml-json-query-1.0.2-linux-arm64.zip"
-      sha256 "8fc1244f2c295075247e84e0d6a6c47c5df14394237bfbd7239f0f6af4b3f505"
+      url "https://github.com/chayprabs/localtools/releases/download/yaml-json-query-v1.0.3/yaml-json-query-1.0.3-linux-arm64.zip"
+      sha256 "3d47a794e5cc3e1a31611b56f70238e18f49521c28ebb827a27db7be8774b676"
     end
   end
 
