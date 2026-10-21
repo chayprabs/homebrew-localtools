@@ -1,27 +1,27 @@
 class LocaltoolsFileTypeDetector < Formula
   desc "Detect real file types from magic bytes and flag extension/MIME mismatches, macros and polyglot files across folders"
   homepage "https://tools.chaitanyaprabuddha.com/file-type-detector"
-  version "1.0.2"
+  version "1.0.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/file-type-detector-v1.0.2/file-type-detector-1.0.2-macos-arm64.zip"
-      sha256 "713f369de2f155d80a16768503fb9155a8c44aca03a143f01c42c46b37aca11e"
+      url "https://github.com/chayprabs/localtools/releases/download/file-type-detector-v1.0.3/file-type-detector-1.0.3-macos-arm64.zip"
+      sha256 "82e71e89bb6f2f0c87372acafc511cbe192f57d7d2fa52bc2f2d3ec05d0e587d"
     end
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/file-type-detector-v1.0.2/file-type-detector-1.0.2-macos-x64.zip"
-      sha256 "9afa1e3cb73e2ae18c55da80acf56843956f4a7906b450f61ac038d4e8590efc"
+      url "https://github.com/chayprabs/localtools/releases/download/file-type-detector-v1.0.3/file-type-detector-1.0.3-macos-x64.zip"
+      sha256 "e0b4fd531940724715f141bc39fbeddd1766905f333cf3407d22bc0630b2a867"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/file-type-detector-v1.0.2/file-type-detector-1.0.2-linux-x64.zip"
-      sha256 "e699414b5a10ea82afe17d6ca882ab31677e3d591aa49eb66667a1c6a75605bb"
+      url "https://github.com/chayprabs/localtools/releases/download/file-type-detector-v1.0.3/file-type-detector-1.0.3-linux-x64.zip"
+      sha256 "5b6cbd593676229c6b45b6ee70c6bfcf76afc80303bb5df09b4331808e5f8f1c"
     end
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/file-type-detector-v1.0.2/file-type-detector-1.0.2-linux-arm64.zip"
-      sha256 "1e75076b645be2e3d034775d2797aa88cd9772af58cf8654b2a6689717d40f27"
+      url "https://github.com/chayprabs/localtools/releases/download/file-type-detector-v1.0.3/file-type-detector-1.0.3-linux-arm64.zip"
+      sha256 "8163f54f86a917789ffefde4ccaacef23d8505dd3158723634a1941ebf397c2c"
     end
   end
 
