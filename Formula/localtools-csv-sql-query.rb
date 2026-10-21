@@ -1,27 +1,27 @@
 class LocaltoolsCsvSqlQuery < Formula
   desc "Run SQL on CSV, TSV, JSON, Parquet and log files (nginx, Apache, syslog) with DuckDB"
   homepage "https://tools.chaitanyaprabuddha.com/csv-sql-query"
-  version "1.0.3"
+  version "1.0.4"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/csv-sql-query-v1.0.3/csv-sql-query-1.0.3-macos-arm64.zip"
-      sha256 "04d0c4408ff7feaf4b9bbe48c30db0f1c9822334869ec8c8b09f63282108e3d2"
+      url "https://github.com/chayprabs/localtools/releases/download/csv-sql-query-v1.0.4/csv-sql-query-1.0.4-macos-arm64.zip"
+      sha256 "37f80d1d8cd2f36ba0baf45585a8352c6503e986a94b77063cbdc7b49df19228"
     end
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/csv-sql-query-v1.0.3/csv-sql-query-1.0.3-macos-x64.zip"
-      sha256 "7121bf7d786b7e568338e37c2c134b50d3295ebf4563a3290d5b619359fb8b6e"
+      url "https://github.com/chayprabs/localtools/releases/download/csv-sql-query-v1.0.4/csv-sql-query-1.0.4-macos-x64.zip"
+      sha256 "0212b1ed991337c9e5e9c21e60a9fb4b3e1a2d90c6d5f6f7a30a9c9f49f0b619"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/csv-sql-query-v1.0.3/csv-sql-query-1.0.3-linux-x64.zip"
-      sha256 "089f484378c91063121722e4a600291870434bdcc6ec291d07ea2ae6e72cd180"
+      url "https://github.com/chayprabs/localtools/releases/download/csv-sql-query-v1.0.4/csv-sql-query-1.0.4-linux-x64.zip"
+      sha256 "2f7a826fee9653cbd55aaa147ed618d1fbd2e7e2179e652a8d80bbe19eca6a2f"
     end
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/csv-sql-query-v1.0.3/csv-sql-query-1.0.3-linux-arm64.zip"
-      sha256 "cf69fe633e627b58215c3cc98b112b39d60f9b279408726ebdf1ee2ec0cb891d"
+      url "https://github.com/chayprabs/localtools/releases/download/csv-sql-query-v1.0.4/csv-sql-query-1.0.4-linux-arm64.zip"
+      sha256 "85fa1371d195f230027ac8bc4f6965c81dbedd5fdbccbccccb80b2453fc41488"
     end
   end
 
