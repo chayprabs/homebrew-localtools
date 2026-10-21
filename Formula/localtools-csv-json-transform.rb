@@ -1,27 +1,27 @@
 class LocaltoolsCsvJsonTransform < Formula
   desc "Convert and transform CSV, TSV, JSON and JSONL with Miller verbs: filter, sort, join, reshape"
   homepage "https://tools.chaitanyaprabuddha.com/csv-json-transform"
-  version "1.0.3"
+  version "1.0.4"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/csv-json-transform-v1.0.3/csv-json-transform-1.0.3-macos-arm64.zip"
-      sha256 "364b619ce3fa0880a9ebfacd8dda77dba2bf942245b034959475c8c5b654197c"
+      url "https://github.com/chayprabs/localtools/releases/download/csv-json-transform-v1.0.4/csv-json-transform-1.0.4-macos-arm64.zip"
+      sha256 "7d31ed23183637951fe375cd1ff1fb86c2f2962b55d6749f24bce908e32a365b"
     end
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/csv-json-transform-v1.0.3/csv-json-transform-1.0.3-macos-x64.zip"
-      sha256 "50364e04a65a2a7e51b0e7a6c873f7fa06bb6b2e9f075639a6e0501937e399ce"
+      url "https://github.com/chayprabs/localtools/releases/download/csv-json-transform-v1.0.4/csv-json-transform-1.0.4-macos-x64.zip"
+      sha256 "244665ce739adc314075717b52100c9045661292b7ac1a604b5c0b2d0a2c0c5e"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/csv-json-transform-v1.0.3/csv-json-transform-1.0.3-linux-x64.zip"
-      sha256 "99e96a916b055cb7aec0554ed92cee428fc9bafbf397acacc6f9d2a86b076a6b"
+      url "https://github.com/chayprabs/localtools/releases/download/csv-json-transform-v1.0.4/csv-json-transform-1.0.4-linux-x64.zip"
+      sha256 "6ae1618c8f36686f88a2197e8755b6b904f9aa0b31f3036948dd7c722fb8b0c1"
     end
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/csv-json-transform-v1.0.3/csv-json-transform-1.0.3-linux-arm64.zip"
-      sha256 "5defd9404a259f21db3e3f05b460448f18027fa0d60a514a8f55245d74b9d5fd"
+      url "https://github.com/chayprabs/localtools/releases/download/csv-json-transform-v1.0.4/csv-json-transform-1.0.4-linux-arm64.zip"
+      sha256 "edd9290cdf2d88d504baefdce7d1224685880c6f2efa0b5c2875b16f0c1db7c7"
     end
   end
 
