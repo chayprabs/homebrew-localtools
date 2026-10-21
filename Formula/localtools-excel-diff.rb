@@ -1,27 +1,27 @@
 class LocaltoolsExcelDiff < Formula
   desc "Compare two Excel or CSV files cell by cell: values, formulas, formats, inserted rows and columns, sheets and named ranges"
   homepage "https://tools.chaitanyaprabuddha.com/excel-diff"
-  version "1.0.2"
+  version "1.0.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/excel-diff-v1.0.2/excel-diff-1.0.2-macos-arm64.zip"
-      sha256 "a4efaff3a925d092a7ad56a886f06c01be4389246b0efcb0890afe04a3a3f992"
+      url "https://github.com/chayprabs/localtools/releases/download/excel-diff-v1.0.3/excel-diff-1.0.3-macos-arm64.zip"
+      sha256 "b7e466d54e013d1caff98816cab47bc275204e3030563a6b340e0ce4208cee87"
     end
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/excel-diff-v1.0.2/excel-diff-1.0.2-macos-x64.zip"
-      sha256 "8f13a62756cfe32a55a4bfe23612311a3962e2e18db5e34c8f2cb2cccf7beee3"
+      url "https://github.com/chayprabs/localtools/releases/download/excel-diff-v1.0.3/excel-diff-1.0.3-macos-x64.zip"
+      sha256 "3875f8e1971b00bf1054124dda33e475bb52c9a8402696609983ee2d43b60844"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/excel-diff-v1.0.2/excel-diff-1.0.2-linux-x64.zip"
-      sha256 "f4ad67b70a7a12fa731b5f4b3ab9a3c79f07c36bde93e629e7bde00138379730"
+      url "https://github.com/chayprabs/localtools/releases/download/excel-diff-v1.0.3/excel-diff-1.0.3-linux-x64.zip"
+      sha256 "1a73127b730fa49965e1566c6232b4d33e9bc63feaba454bdc3f34e4d264d8fa"
     end
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/excel-diff-v1.0.2/excel-diff-1.0.2-linux-arm64.zip"
-      sha256 "5671bbbcc430978ba6d2d8bc43274ca722bd1a439f74b7b8fb2510420425e33e"
+      url "https://github.com/chayprabs/localtools/releases/download/excel-diff-v1.0.3/excel-diff-1.0.3-linux-arm64.zip"
+      sha256 "2f30b5b7a9674e5902537b2077244a413039838047c8519b8af7aa6b47f9f480"
     end
   end
 
