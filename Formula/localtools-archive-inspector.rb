@@ -1,27 +1,27 @@
 class LocaltoolsArchiveInspector < Formula
   desc "List and inspect nested zip, tar, 7z, rar, gz, xz and zst archives and flag zip bombs and path traversal"
   homepage "https://tools.chaitanyaprabuddha.com/archive-inspector"
-  version "1.0.1"
+  version "1.0.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/archive-inspector-v1.0.1/archive-inspector-1.0.1-macos-arm64.zip"
-      sha256 "51114d8b7dd53df918f729f1081b897a0afde6709fb450005f1847283a69c821"
+      url "https://github.com/chayprabs/localtools/releases/download/archive-inspector-v1.0.2/archive-inspector-1.0.2-macos-arm64.zip"
+      sha256 "207bf9736dafbd66ed0cc870034771beabb56335283f37b4041d3139d246bf22"
     end
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/archive-inspector-v1.0.1/archive-inspector-1.0.1-macos-x64.zip"
-      sha256 "0ec244964d58ff6e5661bd5ea10d52dab6437b38f06e1b510b8f8fe5ba4ed535"
+      url "https://github.com/chayprabs/localtools/releases/download/archive-inspector-v1.0.2/archive-inspector-1.0.2-macos-x64.zip"
+      sha256 "e0a9bbcd2b987e3304843cae0e3626169eeb44745a7ddb52f63138ce1b3bd753"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/archive-inspector-v1.0.1/archive-inspector-1.0.1-linux-x64.zip"
-      sha256 "abb2d05a0d00a677e60b1faa67b60ed837900f96450258dd35490362b8624963"
+      url "https://github.com/chayprabs/localtools/releases/download/archive-inspector-v1.0.2/archive-inspector-1.0.2-linux-x64.zip"
+      sha256 "429be05469a907f07a75fd8703b6fa5e1429024aac461ed50674fb9c4532057f"
     end
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/archive-inspector-v1.0.1/archive-inspector-1.0.1-linux-arm64.zip"
-      sha256 "64d52876764ef66c2a04795560d16e5c60a6bca626924bad33831dd14006f1ae"
+      url "https://github.com/chayprabs/localtools/releases/download/archive-inspector-v1.0.2/archive-inspector-1.0.2-linux-arm64.zip"
+      sha256 "d0a7884cce01ed2da526ee24429329f82929354383059a05ff4fb9392ad2f2a5"
     end
   end
 
