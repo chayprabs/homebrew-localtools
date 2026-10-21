@@ -1,27 +1,27 @@
 class LocaltoolsPdfToolkit < Formula
   desc "Merge, split, reorder, rotate, compress, stamp, number, encrypt and fill PDF forms, offline"
   homepage "https://tools.chaitanyaprabuddha.com/pdf-toolkit"
-  version "1.0.2"
+  version "1.0.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/pdf-toolkit-v1.0.2/pdf-toolkit-1.0.2-macos-arm64.zip"
-      sha256 "2c160482e8ab0129e1999940ef4570b49ac5bb0185ccc6fe57a483e0c7700a69"
+      url "https://github.com/chayprabs/localtools/releases/download/pdf-toolkit-v1.0.3/pdf-toolkit-1.0.3-macos-arm64.zip"
+      sha256 "53ca6f407a12d1b57bfdd03588e16d72b3da51fdaa1abd09890380d6ed760ae4"
     end
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/pdf-toolkit-v1.0.2/pdf-toolkit-1.0.2-macos-x64.zip"
-      sha256 "ceddedfd5b15b5893a0da9f2e49173ae2b6f205d88665f338bee5263c12b6c19"
+      url "https://github.com/chayprabs/localtools/releases/download/pdf-toolkit-v1.0.3/pdf-toolkit-1.0.3-macos-x64.zip"
+      sha256 "f98484cd1f38cec6493738cd7de343fcc1ffe6972cad03c4a24e6506f8d21aee"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/pdf-toolkit-v1.0.2/pdf-toolkit-1.0.2-linux-x64.zip"
-      sha256 "e0e7c4e9abb23f84d6b7f87647d4a9178c4e9a6a9bc37d584c0fe3d7e7c8f084"
+      url "https://github.com/chayprabs/localtools/releases/download/pdf-toolkit-v1.0.3/pdf-toolkit-1.0.3-linux-x64.zip"
+      sha256 "47bc3494d79e7948f8523c84c9004750ecf0c6ed0d00a6f26cc2192471fe92dd"
     end
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/pdf-toolkit-v1.0.2/pdf-toolkit-1.0.2-linux-arm64.zip"
-      sha256 "5037a3b410ad22dbdfe6925e532fd71cc58a81575a4de66d179b352df0bc08fe"
+      url "https://github.com/chayprabs/localtools/releases/download/pdf-toolkit-v1.0.3/pdf-toolkit-1.0.3-linux-arm64.zip"
+      sha256 "2146255e946ef1805ca9c06154b64574ab3744edad1b55c2ccdff285330da344"
     end
   end
 
