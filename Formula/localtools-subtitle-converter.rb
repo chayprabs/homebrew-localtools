@@ -1,27 +1,27 @@
 class LocaltoolsSubtitleConverter < Formula
   desc "Convert, inspect and re-time subtitles; extract, add or burn captions into video"
   homepage "https://tools.chaitanyaprabuddha.com/subtitle-converter"
-  version "1.0.3"
+  version "1.0.5"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/subtitle-converter-v1.0.3/subtitle-converter-1.0.3-macos-arm64.zip"
-      sha256 "f17facb907f14b4195c451b567f3bfb16c486dcd9f59256bd2decfa072f587b3"
+      url "https://github.com/chayprabs/localtools/releases/download/subtitle-converter-v1.0.5/subtitle-converter-1.0.5-macos-arm64.zip"
+      sha256 "b561318cf47d7dea1d85795248bf77dec70d4325c8ede08f5096c7f6c7786588"
     end
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/subtitle-converter-v1.0.3/subtitle-converter-1.0.3-macos-x64.zip"
-      sha256 "3f4bc8ae9991bd9c13df9ee34f31b592f59788cbf69d5120a89f5a4956192d28"
+      url "https://github.com/chayprabs/localtools/releases/download/subtitle-converter-v1.0.5/subtitle-converter-1.0.5-macos-x64.zip"
+      sha256 "8e75659c0282198878aa2c14549126b64895e8356b0a485cc10169e1922ef54a"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/subtitle-converter-v1.0.3/subtitle-converter-1.0.3-linux-x64.zip"
-      sha256 "bb106ca01980d301f982082f810c741cc340991112cc4bb60bbaf18cf5228d7f"
+      url "https://github.com/chayprabs/localtools/releases/download/subtitle-converter-v1.0.5/subtitle-converter-1.0.5-linux-x64.zip"
+      sha256 "c10a23a0ab8b99a497e9a44cee67c08f395fffb0e511fec3120c37678d872301"
     end
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/subtitle-converter-v1.0.3/subtitle-converter-1.0.3-linux-arm64.zip"
-      sha256 "9d5bfad029e92cdea5ae5ece6647045442c3ee2e6bccee4e630b65102ffc15d6"
+      url "https://github.com/chayprabs/localtools/releases/download/subtitle-converter-v1.0.5/subtitle-converter-1.0.5-linux-arm64.zip"
+      sha256 "0eea67b27b269e1f5c098b20ff9d0ecf456ceaed331e9fda460e76523558c5be"
     end
   end
 
