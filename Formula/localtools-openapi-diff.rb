@@ -1,27 +1,27 @@
 class LocaltoolsOpenapiDiff < Formula
   desc "Diff two OpenAPI 3 or Swagger specs and list breaking changes with severity"
   homepage "https://tools.chaitanyaprabuddha.com/openapi-diff"
-  version "1.0.2"
+  version "1.0.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/openapi-diff-v1.0.2/openapi-diff-1.0.2-macos-arm64.zip"
-      sha256 "42997626c423e791d4c018dbc0f35e563d9e00fc254cfb31721e21f095b2ad08"
+      url "https://github.com/chayprabs/localtools/releases/download/openapi-diff-v1.0.3/openapi-diff-1.0.3-macos-arm64.zip"
+      sha256 "9e7b2ffc8d77a1452fd602e374910ff5d78d92269dccbda447ed191d31f20a1f"
     end
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/openapi-diff-v1.0.2/openapi-diff-1.0.2-macos-x64.zip"
-      sha256 "2930c4cb7eab9087be1775eef0396c5ee9692b4577c7a2f12a6736d965d65e4d"
+      url "https://github.com/chayprabs/localtools/releases/download/openapi-diff-v1.0.3/openapi-diff-1.0.3-macos-x64.zip"
+      sha256 "59361976ab04bbe6128dcd3f29cf3c880086a255339b428d9c8a3760871407d1"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/openapi-diff-v1.0.2/openapi-diff-1.0.2-linux-x64.zip"
-      sha256 "8a32f930ea23c19f4971285c4ab090d66f1f7428960977a480d4915ae230806c"
+      url "https://github.com/chayprabs/localtools/releases/download/openapi-diff-v1.0.3/openapi-diff-1.0.3-linux-x64.zip"
+      sha256 "ffd04dc68f4a7aab6e2721cd3cf697ee0357c146acda4040e3afb0342012eec2"
     end
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/openapi-diff-v1.0.2/openapi-diff-1.0.2-linux-arm64.zip"
-      sha256 "1751114e5d82e83dddda205b7bb34da2ab48a1f8ed243bc0af1e7ae42e5091d5"
+      url "https://github.com/chayprabs/localtools/releases/download/openapi-diff-v1.0.3/openapi-diff-1.0.3-linux-arm64.zip"
+      sha256 "e83d6dccd6db4d1d64884bc326af22b3ca606b57f707c4cea9a6b3047f5863e3"
     end
   end
 
