@@ -1,27 +1,27 @@
 class LocaltoolsDocxCompare < Formula
   desc "Compare two Word documents and produce a tracked-changes redline .docx"
   homepage "https://tools.chaitanyaprabuddha.com/docx-compare"
-  version "1.0.2"
+  version "1.0.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/docx-compare-v1.0.2/docx-compare-1.0.2-macos-arm64.zip"
-      sha256 "f3569292255402c9c8a9e1f142d7050edb4ee43ee350410ab7f57aac8e604560"
+      url "https://github.com/chayprabs/localtools/releases/download/docx-compare-v1.0.3/docx-compare-1.0.3-macos-arm64.zip"
+      sha256 "a5406ef53726e033b58bd31534155411c632ab876d023be06296476e2d3e0a34"
     end
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/docx-compare-v1.0.2/docx-compare-1.0.2-macos-x64.zip"
-      sha256 "b4fa421f858d4569653e45d2a299f24ad581bdd0917da177bc2a8586f37296f1"
+      url "https://github.com/chayprabs/localtools/releases/download/docx-compare-v1.0.3/docx-compare-1.0.3-macos-x64.zip"
+      sha256 "f25a1bcd2dedb1bab76056909f3abc245d2c6a136a5d905c47dfed42f66969e8"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/docx-compare-v1.0.2/docx-compare-1.0.2-linux-x64.zip"
-      sha256 "afcc33889c55af5562608b330addb606036f7929598c3e1d4e2a74b60b9eae5a"
+      url "https://github.com/chayprabs/localtools/releases/download/docx-compare-v1.0.3/docx-compare-1.0.3-linux-x64.zip"
+      sha256 "b305d5ffdf08208be80037c9094622df5ccd636ac830e231108bddd19d86a57e"
     end
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/docx-compare-v1.0.2/docx-compare-1.0.2-linux-arm64.zip"
-      sha256 "c06363e03ad514f80f169cd053f63ab9b445013ba137869f397cc4c6583c3c18"
+      url "https://github.com/chayprabs/localtools/releases/download/docx-compare-v1.0.3/docx-compare-1.0.3-linux-arm64.zip"
+      sha256 "32ffe80b89a1cd773683334af444ef05f9ba20db7b361ca6f1ea2068066df29c"
     end
   end
 
