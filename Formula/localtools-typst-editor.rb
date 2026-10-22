@@ -1,27 +1,27 @@
 class LocaltoolsTypstEditor < Formula
   desc "Write Typst documents with live preview and export them to PDF, PNG or SVG"
   homepage "https://tools.chaitanyaprabuddha.com/typst-editor"
-  version "1.0.1"
+  version "1.0.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/typst-editor-v1.0.1/typst-editor-1.0.1-macos-arm64.zip"
-      sha256 "db7269dc4fbbfae54379d632ac6cc4cacd237aec905a04e6c350ee6c1608e239"
+      url "https://github.com/chayprabs/localtools/releases/download/typst-editor-v1.0.2/typst-editor-1.0.2-macos-arm64.zip"
+      sha256 "6cf95242f480fb0d0457b6f3cf5e443414b15e4067b53cfe03b3b475f1ac0e20"
     end
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/typst-editor-v1.0.1/typst-editor-1.0.1-macos-x64.zip"
-      sha256 "768a8519dafc07594540fed7c7a2175850a4a241ee1678ffd94a8a47d865cc5a"
+      url "https://github.com/chayprabs/localtools/releases/download/typst-editor-v1.0.2/typst-editor-1.0.2-macos-x64.zip"
+      sha256 "2c5eb091549fbb3cc7b2a33b5075e18c9cde363ce48c8a4d9e1fdf45fb6417e7"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/typst-editor-v1.0.1/typst-editor-1.0.1-linux-x64.zip"
-      sha256 "500fc620df5bbd2c5166aa38f51cc5fec7073041184bd3acb7ae4d5520e98e31"
+      url "https://github.com/chayprabs/localtools/releases/download/typst-editor-v1.0.2/typst-editor-1.0.2-linux-x64.zip"
+      sha256 "bdd5aeec5d1a9e135c659b960420aa61e51ccaadded76c7d18abd79ae952b9a3"
     end
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/typst-editor-v1.0.1/typst-editor-1.0.1-linux-arm64.zip"
-      sha256 "e666ea19226b268c12697ee8f1daa11844f710c072b76e1db6797e16bf87f02f"
+      url "https://github.com/chayprabs/localtools/releases/download/typst-editor-v1.0.2/typst-editor-1.0.2-linux-arm64.zip"
+      sha256 "cae9539017d15087a9b6de1e65982ea9184ce71ba784a9649e9f39206872df29"
     end
   end
 
