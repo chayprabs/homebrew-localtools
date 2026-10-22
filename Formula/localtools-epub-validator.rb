@@ -1,27 +1,27 @@
 class LocaltoolsEpubValidator < Formula
   desc "Validate EPUB files with EPUBCheck and repair common errors"
   homepage "https://tools.chaitanyaprabuddha.com/epub-validator"
-  version "1.0.1"
+  version "1.0.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/epub-validator-v1.0.1/epub-validator-1.0.1-macos-arm64.zip"
-      sha256 "a094c37892d211c7445a85c686149edd3898af3d0a06a2262299b35e53fa19f9"
+      url "https://github.com/chayprabs/localtools/releases/download/epub-validator-v1.0.2/epub-validator-1.0.2-macos-arm64.zip"
+      sha256 "cdd56d52e00375b9463ad62ea40a2bf47e0cba985b0f1f55b769f7d7071ae9eb"
     end
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/epub-validator-v1.0.1/epub-validator-1.0.1-macos-x64.zip"
-      sha256 "06fb0ee7ddd5c5e90adf520af5da57a571bc75fec23fa4e689fb80f94faf993d"
+      url "https://github.com/chayprabs/localtools/releases/download/epub-validator-v1.0.2/epub-validator-1.0.2-macos-x64.zip"
+      sha256 "31aff129995abdda083bc1e5956f7d4a6245e92273bf9ce2793364b6b6de763d"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/epub-validator-v1.0.1/epub-validator-1.0.1-linux-x64.zip"
-      sha256 "688da5a063f7258adb7f4122dc54677af98b26546750b85515e8b29af2aadccd"
+      url "https://github.com/chayprabs/localtools/releases/download/epub-validator-v1.0.2/epub-validator-1.0.2-linux-x64.zip"
+      sha256 "398cbd183d3361daa26813c68c190a42864c03d9c0faed4519f6fa15327b94b4"
     end
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/epub-validator-v1.0.1/epub-validator-1.0.1-linux-arm64.zip"
-      sha256 "e6347c2bd96c8faf3ba3032dd09b1a8810c56625c6d05a8d017e2e46f1a67894"
+      url "https://github.com/chayprabs/localtools/releases/download/epub-validator-v1.0.2/epub-validator-1.0.2-linux-arm64.zip"
+      sha256 "3fc30dc397ac594d5f89cfab1d8256f1e635c38aabbbeb79e8183480c2da8670"
     end
   end
 
