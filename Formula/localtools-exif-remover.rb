@@ -1,27 +1,27 @@
 class LocaltoolsExifRemover < Formula
   desc "Inspect and remove metadata from JPEG, PNG, TIFF and WebP images; download clean copies and a remaining-tags report"
   homepage "https://tools.chaitanyaprabuddha.com/exif-remover"
-  version "1.0.3"
+  version "1.0.4"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/exif-remover-v1.0.3/exif-remover-1.0.3-macos-arm64.zip"
-      sha256 "b2984779f612f2ab757b9c647d1cf44b7c5d3d68b2a5b3016e709c431ba08dec"
+      url "https://github.com/chayprabs/localtools/releases/download/exif-remover-v1.0.4/exif-remover-1.0.4-macos-arm64.zip"
+      sha256 "e86908ac985f98c5bd57759ab0290fe1d2a06b9487db5035ab4b78f8dadb7402"
     end
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/exif-remover-v1.0.3/exif-remover-1.0.3-macos-x64.zip"
-      sha256 "eb8a28f3945e3a2792b4e5712e3844dcdc7672768048e7ce3621dd9fc9860171"
+      url "https://github.com/chayprabs/localtools/releases/download/exif-remover-v1.0.4/exif-remover-1.0.4-macos-x64.zip"
+      sha256 "f90d87ce7d8287709a978c732e4ca26f5355cc2c5478a58318546788114bef25"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/exif-remover-v1.0.3/exif-remover-1.0.3-linux-x64.zip"
-      sha256 "1bde92ec7cff11e00b2d713cd61e8167966a20dfb04b9e53b4831b37ca6219e5"
+      url "https://github.com/chayprabs/localtools/releases/download/exif-remover-v1.0.4/exif-remover-1.0.4-linux-x64.zip"
+      sha256 "451a6478e459b0e2a779e034dde0bc12915e8b3c8c3d442e910209c43a3a9cf9"
     end
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/exif-remover-v1.0.3/exif-remover-1.0.3-linux-arm64.zip"
-      sha256 "a7fbb37b1b2ec24b525e19643ded3e2461900c53e3740569e73d7de83cf1be59"
+      url "https://github.com/chayprabs/localtools/releases/download/exif-remover-v1.0.4/exif-remover-1.0.4-linux-arm64.zip"
+      sha256 "89226f21c9fb966ff5f4696fcb49093fff850f1b9de6fa19e8e7409efaeb78a0"
     end
   end
 
