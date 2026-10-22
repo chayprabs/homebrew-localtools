@@ -1,27 +1,27 @@
 class LocaltoolsJsonToExcel < Formula
   desc "Convert JSON or JSONL into formatted .xlsx workbooks with typed columns and multiple sheets"
   homepage "https://tools.chaitanyaprabuddha.com/json-to-excel"
-  version "1.0.5"
+  version "1.0.6"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/json-to-excel-v1.0.5/json-to-excel-1.0.5-macos-arm64.zip"
-      sha256 "f14fbad5c4dfe41dac6bc5065b899ec8dd028a99842890056196e4a7a7087dc9"
+      url "https://github.com/chayprabs/localtools/releases/download/json-to-excel-v1.0.6/json-to-excel-1.0.6-macos-arm64.zip"
+      sha256 "a460d6a82173e990a93b769dbf66a18c588be3b0aa7be560c38cc2d401be71f2"
     end
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/json-to-excel-v1.0.5/json-to-excel-1.0.5-macos-x64.zip"
-      sha256 "06658bf2fadbfc8e813378bc24b24e729d3f0390b184a22bb419cfa63b54543f"
+      url "https://github.com/chayprabs/localtools/releases/download/json-to-excel-v1.0.6/json-to-excel-1.0.6-macos-x64.zip"
+      sha256 "b8a3b43be6d448b3f92e203a5d140d716bf676b3d6145dad7fd75d59a65da278"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/json-to-excel-v1.0.5/json-to-excel-1.0.5-linux-x64.zip"
-      sha256 "c607f4cbcd262ee6f72adf485656f1019b9f71a7edab5d39805db7153f8b8c03"
+      url "https://github.com/chayprabs/localtools/releases/download/json-to-excel-v1.0.6/json-to-excel-1.0.6-linux-x64.zip"
+      sha256 "fdeb71ad3b0d374b2ee2d230aa758717e54adef6765c8a392d7bcba87077a897"
     end
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/json-to-excel-v1.0.5/json-to-excel-1.0.5-linux-arm64.zip"
-      sha256 "bcee0282f4b6f104cc7f00ade13281cc39543824f9a7ac67f6f0b64d4721b464"
+      url "https://github.com/chayprabs/localtools/releases/download/json-to-excel-v1.0.6/json-to-excel-1.0.6-linux-arm64.zip"
+      sha256 "9a7722615d06812abe883244db6eae506826bc0d0275b2c87f70d8cdd7f8da0e"
     end
   end
 
