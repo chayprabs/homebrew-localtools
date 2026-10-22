@@ -1,23 +1,23 @@
 class LocaltoolsLoudnessNormalizer < Formula
   desc "Normalize audio loudness to EBU R128 / LUFS targets with two-pass ffmpeg loudnorm"
   homepage "https://tools.chaitanyaprabuddha.com/loudness-normalizer"
-  version "1.0.1"
+  version "1.0.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/loudness-normalizer-v1.0.1/loudness-normalizer-1.0.1-macos-arm64.zip"
-      sha256 "b017c358d26d7ebbec205ea35673123935137b572e780567799669216c8581e4"
+      url "https://github.com/chayprabs/localtools/releases/download/loudness-normalizer-v1.0.2/loudness-normalizer-1.0.2-macos-arm64.zip"
+      sha256 "0c40fb2096371d96b34efcfc366a38df11e7cb185a5d5fc8d37f68c7296f5565"
     end
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/loudness-normalizer-v1.0.1/loudness-normalizer-1.0.1-macos-x64.zip"
-      sha256 "1273563e4c8732a2983e97055baf2bd9c22cf27c774eed6a6540806cf3947029"
+      url "https://github.com/chayprabs/localtools/releases/download/loudness-normalizer-v1.0.2/loudness-normalizer-1.0.2-macos-x64.zip"
+      sha256 "27ba71ccb4a97dd444db73bcd279dc3c557b0dc11aa54ba0f63c6d88df4fe9e8"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/loudness-normalizer-v1.0.1/loudness-normalizer-1.0.1-linux-x64.zip"
-      sha256 "9d729f9463a6fdf0656d8104f0c6a82a6a13dc6b472c5e9275151041da438eb4"
+      url "https://github.com/chayprabs/localtools/releases/download/loudness-normalizer-v1.0.2/loudness-normalizer-1.0.2-linux-x64.zip"
+      sha256 "f3a7eae38ae3d9f0b886caa11b39b198c2fdc012c51818a3784e1964273b251b"
     end
   end
 
