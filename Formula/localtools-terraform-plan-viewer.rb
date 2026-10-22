@@ -1,27 +1,27 @@
 class LocaltoolsTerraformPlanViewer < Formula
   desc "Review terraform or OpenTofu plan JSON offline: destructive changes first, attribute diffs, blast radius, drift and risk flags"
   homepage "https://tools.chaitanyaprabuddha.com/terraform-plan-viewer"
-  version "1.0.2"
+  version "1.0.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/terraform-plan-viewer-v1.0.2/terraform-plan-viewer-1.0.2-macos-arm64.zip"
-      sha256 "1acee41c20a129274c44953790aa5b5fc9af15bea4a748a50d8b105b4d47783b"
+      url "https://github.com/chayprabs/localtools/releases/download/terraform-plan-viewer-v1.0.3/terraform-plan-viewer-1.0.3-macos-arm64.zip"
+      sha256 "6f9be3d1d28460564b5029c00523689ed7702b41e256057805697bbec5ec7e87"
     end
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/terraform-plan-viewer-v1.0.2/terraform-plan-viewer-1.0.2-macos-x64.zip"
-      sha256 "a5d0c75b8cc64c630e86cc58747b5d2c9fe08ec9c4f4fcd2283b60ee4b22e754"
+      url "https://github.com/chayprabs/localtools/releases/download/terraform-plan-viewer-v1.0.3/terraform-plan-viewer-1.0.3-macos-x64.zip"
+      sha256 "2c1c1c713e834c015c4ad377747b071c9efeb39a0220205d5814a7e2b605da1a"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/terraform-plan-viewer-v1.0.2/terraform-plan-viewer-1.0.2-linux-x64.zip"
-      sha256 "a74f17a0a1a7246f26851d76b7eb65218a4ae4029f54c0260b0e4393f7a2af08"
+      url "https://github.com/chayprabs/localtools/releases/download/terraform-plan-viewer-v1.0.3/terraform-plan-viewer-1.0.3-linux-x64.zip"
+      sha256 "ac002bdfd61863e75c4b983ed83550ed0f055171301c704a1dc7c5d023550c44"
     end
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/terraform-plan-viewer-v1.0.2/terraform-plan-viewer-1.0.2-linux-arm64.zip"
-      sha256 "40a5e233485d20b9a08f5b18cb3d11aa47f985339a2f8b3a2789aee89eaec64f"
+      url "https://github.com/chayprabs/localtools/releases/download/terraform-plan-viewer-v1.0.3/terraform-plan-viewer-1.0.3-linux-arm64.zip"
+      sha256 "dddb61851abf3a000e0485c7b72e87b54ec4e16ba7d82c371a20eabc39920056"
     end
   end
 
