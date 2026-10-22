@@ -1,27 +1,27 @@
 class LocaltoolsExcelDiff < Formula
   desc "Compare two Excel or CSV files cell by cell: values, formulas, formats, inserted rows and columns, sheets and named ranges"
   homepage "https://tools.chaitanyaprabuddha.com/excel-diff"
-  version "1.0.4"
+  version "1.0.5"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/excel-diff-v1.0.4/excel-diff-1.0.4-macos-arm64.zip"
-      sha256 "7bd23fefd34fa1cd17ee43237ba27d36931897bd0925791bfff51268f4923d0e"
+      url "https://github.com/chayprabs/localtools/releases/download/excel-diff-v1.0.5/excel-diff-1.0.5-macos-arm64.zip"
+      sha256 "e906d90fdb6137e0f97ae540459f75fafb75621fe8acf4a198c83b639b17d62f"
     end
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/excel-diff-v1.0.4/excel-diff-1.0.4-macos-x64.zip"
-      sha256 "25f25ff62f2f48f45f6c2dfda24660dba2f96a453cf47e823446a7ce38b826da"
+      url "https://github.com/chayprabs/localtools/releases/download/excel-diff-v1.0.5/excel-diff-1.0.5-macos-x64.zip"
+      sha256 "0f4c7658f6e2fa44ea3751e85beebb06d2187a43ae57e962494f0ff91b2f58ba"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/excel-diff-v1.0.4/excel-diff-1.0.4-linux-x64.zip"
-      sha256 "2c2b342ced1f8cefd436a585437c2a78c778437d001c9ab4879f60f8b39908b9"
+      url "https://github.com/chayprabs/localtools/releases/download/excel-diff-v1.0.5/excel-diff-1.0.5-linux-x64.zip"
+      sha256 "5097309024e79760097a88638ee071d91e9d3301b7b60b7bc18d12fee2ae2b52"
     end
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/excel-diff-v1.0.4/excel-diff-1.0.4-linux-arm64.zip"
-      sha256 "e023bf986f22ff0a9c9b77f9e493367ab444b09f8508ec54fcb2e55b0ee33c9e"
+      url "https://github.com/chayprabs/localtools/releases/download/excel-diff-v1.0.5/excel-diff-1.0.5-linux-arm64.zip"
+      sha256 "2f6cbb6091be927cba3beb299d1cfae485561768ed7557c188308126f2932a38"
     end
   end
 
