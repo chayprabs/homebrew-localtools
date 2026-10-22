@@ -1,27 +1,27 @@
 class LocaltoolsOgImageGenerator < Formula
   desc "Design and render Open Graph / social card images offline: templates, live preview, code highlighting, batch"
   homepage "https://tools.chaitanyaprabuddha.com/og-image-generator"
-  version "1.0.2"
+  version "1.0.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/og-image-generator-v1.0.2/og-image-generator-1.0.2-macos-arm64.zip"
-      sha256 "15791f3a0209f20de04341fe511ed6d7cd8403bd66c3194678f5c1503a69302a"
+      url "https://github.com/chayprabs/localtools/releases/download/og-image-generator-v1.0.3/og-image-generator-1.0.3-macos-arm64.zip"
+      sha256 "09934003f5bad1d4a9cabfd5ca6afe0cae9057c94eaa9b7821f05d358c8f292d"
     end
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/og-image-generator-v1.0.2/og-image-generator-1.0.2-macos-x64.zip"
-      sha256 "df1ee3651ecbc3b186d0537367ff8e27238d55e3513a72a6d75cbb8b8b556457"
+      url "https://github.com/chayprabs/localtools/releases/download/og-image-generator-v1.0.3/og-image-generator-1.0.3-macos-x64.zip"
+      sha256 "989b074e209f81eb4f93f7669015810cb923329d6f2c2c237ef500914c9fe376"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/og-image-generator-v1.0.2/og-image-generator-1.0.2-linux-x64.zip"
-      sha256 "e6a89762215e57fec2fb37478d48e91b9b761976eaa04e9ed89827ea299ebeab"
+      url "https://github.com/chayprabs/localtools/releases/download/og-image-generator-v1.0.3/og-image-generator-1.0.3-linux-x64.zip"
+      sha256 "61b52c4b063fad207757727d283936242b852da22c4933389f273b22c0326018"
     end
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/og-image-generator-v1.0.2/og-image-generator-1.0.2-linux-arm64.zip"
-      sha256 "93f5b24a507befe4e283a4175e5ebb99abaa0a5f06aa807f2267755ccb66194c"
+      url "https://github.com/chayprabs/localtools/releases/download/og-image-generator-v1.0.3/og-image-generator-1.0.3-linux-arm64.zip"
+      sha256 "fb8641d5e2b3af14ccf1429861c8b9285b1a490c4483ac5a42df4c2164ab4221"
     end
   end
 
