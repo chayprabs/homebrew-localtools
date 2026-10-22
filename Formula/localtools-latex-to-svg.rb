@@ -1,27 +1,27 @@
 class LocaltoolsLatexToSvg < Formula
   desc "Render LaTeX, MathML or AsciiMath to SVG, PNG and MathML with speech alt text, offline with MathJax"
   homepage "https://tools.chaitanyaprabuddha.com/latex-to-svg"
-  version "1.0.2"
+  version "1.0.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/latex-to-svg-v1.0.2/latex-to-svg-1.0.2-macos-arm64.zip"
-      sha256 "81e729e22377bd04993c5c0b382be3e15fa475424cade0ff8583041d5478e8cc"
+      url "https://github.com/chayprabs/localtools/releases/download/latex-to-svg-v1.0.3/latex-to-svg-1.0.3-macos-arm64.zip"
+      sha256 "fa6662cd3b94ef2121831402428334e96bb235bbb8346de430f19924ae3d7af6"
     end
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/latex-to-svg-v1.0.2/latex-to-svg-1.0.2-macos-x64.zip"
-      sha256 "8383d8750d21e1ec9c71feb236c29e42ba63c618cee47aa40713be3fe0dfd697"
+      url "https://github.com/chayprabs/localtools/releases/download/latex-to-svg-v1.0.3/latex-to-svg-1.0.3-macos-x64.zip"
+      sha256 "c6289b18da89e3382a20abf9b7aad2d7e9df1733f88cd14b1dade1a8c00f2b16"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/chayprabs/localtools/releases/download/latex-to-svg-v1.0.2/latex-to-svg-1.0.2-linux-x64.zip"
-      sha256 "f1dee7d9ef13c6ead70838a3c28f9bd20eca47c542056d43cbe0103472e91c6c"
+      url "https://github.com/chayprabs/localtools/releases/download/latex-to-svg-v1.0.3/latex-to-svg-1.0.3-linux-x64.zip"
+      sha256 "b7d42d148f6c03b5dfa1f4d9df2678f50d67c80ddb167d4c200ba44ad777d800"
     end
     on_arm do
-      url "https://github.com/chayprabs/localtools/releases/download/latex-to-svg-v1.0.2/latex-to-svg-1.0.2-linux-arm64.zip"
-      sha256 "77b87fdb47657f0c718bbabc505dd443b3d6b1a1bf316b61ad9f439eda689fa8"
+      url "https://github.com/chayprabs/localtools/releases/download/latex-to-svg-v1.0.3/latex-to-svg-1.0.3-linux-arm64.zip"
+      sha256 "e2f0453a84ea96e8c819ccaf366722a266196696b4fd9ffe44dd9a815ae7420c"
     end
   end
 
